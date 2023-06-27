@@ -63,13 +63,8 @@ const Banner = () => {
             </a>
           </motion.div>
 
-
-          <motion.div 
-           variants={fadeIn('up',0.7)}
-           initial='hidden'
-           whileInView={'show'}
-           viewport={{once: false,amount:0.7}}
-          className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+          
+          <motion.div  className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
             <a href="https://github.com/AhmedMuktadir14218">
               <FaGithub />
             </a>
@@ -82,12 +77,7 @@ const Banner = () => {
           </motion.div>
         </div>
 
-        <motion.div 
-         variants={fadeIn('down',0.5)}
-         initial='hidden'
-         whileInView={'show'}
-         viewport={{once: false,amount:0.7}}
-        className='pb-36 hidden lg:flex flex-1 max-w-[100%]'>
+        <motion.div className='pb-36 hidden lg:flex flex-1 max-w-[100%]'>
         {/* <div className='pb-36 hidden lg:flex flex-1 max-w-[320px]'> */}
 
           <img src={Image} alt="abc" />
