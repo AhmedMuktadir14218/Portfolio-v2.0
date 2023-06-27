@@ -54,7 +54,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className='pb-36'>
+        <div className='pb-3'>
 
           <img src={Image} alt="abc" />
         </div>

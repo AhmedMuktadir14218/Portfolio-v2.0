@@ -10,7 +10,7 @@ const Banner = () => {
     className='min-h-[85vh] section' id='home'>
 
     <div className="container mx-auto ">
-      <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
+      <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center lg:gap-x-14'>
         <div className='flex-1 text-center font-secondary lg:text-left'>
           <h1 className='text-[40px] font-bold leading-[1] lg:text-[95px]'>
             Muktadir <span>Udoy</span>
@@ -54,7 +54,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className='pb-36'>
+        <div className='pb-32'>
 
           <img src={Image} alt="abc" />
         </div>

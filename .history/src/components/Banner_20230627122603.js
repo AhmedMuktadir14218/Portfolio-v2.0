@@ -6,13 +6,23 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const Banner = () => {
-  return <section
-    className='min-h-[85vh] section' id='home'>
+  return (
+    <section className='section' id='home'>
+
+    </section>
+  );
+};
+
+export default Banner;
+
+
+<section
+    >
 
     <div className="container mx-auto ">
       <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
         <div className='flex-1 text-center font-secondary lg:text-left'>
-          <h1 className='text-[40px] font-bold leading-[1] lg:text-[95px]'>
+          <h1 className='text-[45px] font-bold leading-[0.8] lg:text-[100px]'>
             Muktadir <span>Udoy</span>
           </h1>
           <div className='mb-6 text-[30px] lg:text-[52px] font-secondary font-semibold uppercase leading-[1]'>
@@ -54,13 +64,10 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className='pb-36'>
+        <div>
 
           <img src={Image} alt="abc" />
         </div>
       </div>
     </div>
-  </section>;
-};
-
-export default Banner;
+  </section>

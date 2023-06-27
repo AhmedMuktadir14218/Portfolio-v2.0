@@ -41,7 +41,7 @@ const Banner = () => {
               My Portfolio
             </a>
           </div>
-          <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+          <div className='flex text-[15px] gap-x-6 max-w-max mx-auto lg:mx-0'>
             <a href="#">
               <FaGithub />
             </a>
@@ -54,7 +54,7 @@ const Banner = () => {
           </div>
         </div>
 
-        <div className='pb-36'>
+        <div className='pb-32'>
 
           <img src={Image} alt="abc" />
         </div>
