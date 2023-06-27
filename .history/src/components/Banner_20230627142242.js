@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Image from '../assets/avatar2.svg';
 import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Image from '../assets/avatar2.svg';
 import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
@@ -21,8 +20,8 @@ const Banner = () => {
           className='text-[32px] font-bold leading-[1] lg:text-[75px]'>
             Muktadir <span>Udoy</span>
           </motion.h1>
-          <motion.div 
-           variants={fadeIn('up',0.4)}
+          <div 
+           variants={fadeIn('up',0.3)}
            initial='hidden'
            whileInView={'show'}
            viewport={{once: false,amount:0.7}}
@@ -42,26 +41,16 @@ const Banner = () => {
               wrapper='span'
               repeat={Infinity}
             />
-          </motion.div>
-          <motion.p 
-           variants={fadeIn('up',0.5)}
-           initial='hidden'
-           whileInView={'show'}
-           viewport={{once: false,amount:0.7}}
-          className='mb-8 max-w-lg mx-auto lg:mx-0'>
+          </div>
+          <p className='mb-8 max-w-lg mx-auto lg:mx-0'>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi reprehenderit libero laboriosam dignissimos, provident in nobis suscipit perferendis corrupti, iste dolores excepturi enim!
-          </motion.p>
-          <motion.div
-           variants={fadeIn('up',0.6)}
-           initial='hidden'
-           whileInView={'show'}
-           viewport={{once: false,amount:0.7}}
-          className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
+          </p>
+          <div className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <button className='btn btn-lg'>Contact Me</button>
             <a href="#" className='text-gradient btn-link'>
               My Portfolio
             </a>
-          </motion.div>
+          </div>
           <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
             <a href="https://github.com/AhmedMuktadir14218">
               <FaGithub />

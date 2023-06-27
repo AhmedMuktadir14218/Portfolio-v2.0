@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Image from '../assets/avatar2.svg';
 import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
@@ -44,7 +43,7 @@ const Banner = () => {
             />
           </motion.div>
           <motion.p 
-           variants={fadeIn('up',0.5)}
+           variants={fadeIn('up',0.4)}
            initial='hidden'
            whileInView={'show'}
            viewport={{once: false,amount:0.7}}

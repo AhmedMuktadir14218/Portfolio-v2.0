@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Image from '../assets/avatar2.svg';
 import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
@@ -58,6 +57,7 @@ const Banner = () => {
            viewport={{once: false,amount:0.7}}
           className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
             <button className='btn btn-lg'>Contact Me</button>
+            // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <a href="#" className='text-gradient btn-link'>
               My Portfolio
             </a>
