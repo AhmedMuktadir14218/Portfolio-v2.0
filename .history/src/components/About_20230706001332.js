@@ -29,16 +29,6 @@ const About = () => {
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, in! Consequatur placeat repellat sequi adipisci impedit ad reprehenderit magnam enim, commodi est facilis! Assumenda, odio.
             </p>
-
-            {/* state */}
-            <div>
-              <div>
-                <div>
-                  <CountUp start={0} end={4} duration={7} />
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>

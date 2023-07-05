@@ -8,7 +8,7 @@ import { fadeIn } from '../variants';
 const About = () => {
 
   const [ref, Inview] = useInView({
-    threshold: 0.5,
+    threshold: 0.4,
   })
   return (
     <section className='section' id='about' ref={ref} >
@@ -34,7 +34,7 @@ const About = () => {
             <div>
               <div>
                 <div>
-                  <CountUp start={0} end={4} duration={7} />
+                  <CountUp start={0} end={4} />
                 </div>
               </div>
             </div>

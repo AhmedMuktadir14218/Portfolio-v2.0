@@ -31,14 +31,6 @@ const About = () => {
             </p>
 
             {/* state */}
-            <div>
-              <div>
-                <div>
-                  <CountUp start={0} end={4} duration={7} />
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>

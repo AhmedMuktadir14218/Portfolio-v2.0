@@ -34,7 +34,7 @@ const About = () => {
             <div>
               <div>
                 <div>
-                  <CountUp start={0} end={4} duration={7} />
+                  <CountUp start={0} end={14} />
                 </div>
               </div>
             </div>
