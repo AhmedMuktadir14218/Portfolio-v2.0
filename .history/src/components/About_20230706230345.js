@@ -51,7 +51,7 @@ const About = () => {
                   }+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Projects <br/> Completed 
+                  Projects <br /> comple 
                 </div>
               </div>
               <div>

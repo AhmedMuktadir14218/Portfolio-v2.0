@@ -48,10 +48,10 @@ const About = () => {
                   {
                     inView ?
                     <CountUp start={0} end={250} duration={6} /> : null
-                  }+
+                  }
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Projects <br/> Completed 
+                  Years of <br /> Experience 
                 </div>
               </div>
               <div>
