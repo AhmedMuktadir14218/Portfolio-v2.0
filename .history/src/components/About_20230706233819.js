@@ -15,7 +15,7 @@ const About = () => {
     <section className='section' id='about' ref={ref} >
       <div className="container  mx-auto">
         <div className='flex flex-col gap-y-10 lg:flex-row 
-        lg:item-center lg:gap-x-20 lg:gap-y-0 h-screen'>
+        lg: lg:gap-x-20'>
           {/* img */}
           <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
             {/* <img src={imgAb} alt="asd" /> */}
@@ -49,7 +49,7 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient mb-2 '>
                   {
                     inView ?
-                    <CountUp start={0} end={150} duration={7} /> : null
+                    <CountUp start={0} end={250} duration={7} /> : null
                   }+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
@@ -60,7 +60,7 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient mb-2 '>
                   {
                     inView ?
-                    <CountUp start={0} end={70} duration={7} /> : null
+                    <CountUp start={0} end={140} duration={7} /> : null
                   }+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>

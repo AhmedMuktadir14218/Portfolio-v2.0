@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import imgAb from '../assets/about.png';
 import CountUp from 'react-countup';
@@ -14,8 +13,7 @@ const About = () => {
   return (
     <section className='section' id='about' ref={ref} >
       <div className="container  mx-auto">
-        <div className='flex flex-col gap-y-10 lg:flex-row 
-        lg:item-center lg:gap-x-20 lg:gap-y-0 h-screen'>
+        <div>
           {/* img */}
           <div className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
             {/* <img src={imgAb} alt="asd" /> */}
@@ -23,12 +21,12 @@ const About = () => {
 
           {/* text */}
 
-          <div className='flex-1'>
-            <h2 className='h2 text-accent'>
+          <div>
+            <h2>
               About Me
             </h2>
-            <h3 className='h3 mb-4'>Lorem ipsum dolor sit amet consectetur.</h3>
-            <p className='mb-6'>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, in! Consequatur placeat repellat sequi adipisci impedit ad reprehenderit magnam enim, commodi est facilis! Assumenda, odio.
             </p>
 
@@ -38,7 +36,7 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient mb-2 '>
                   {
                     inView ?
-                    <CountUp start={0} end={2} duration={7} /> : null
+                    <CountUp start={0} end={4} duration={7} /> : null
                   }
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
@@ -49,7 +47,7 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient mb-2 '>
                   {
                     inView ?
-                    <CountUp start={0} end={150} duration={7} /> : null
+                    <CountUp start={0} end={250} duration={7} /> : null
                   }+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
@@ -60,7 +58,7 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient mb-2 '>
                   {
                     inView ?
-                    <CountUp start={0} end={70} duration={7} /> : null
+                    <CountUp start={0} end={140} duration={7} /> : null
                   }+
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
@@ -68,13 +66,11 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className='flex gap-x-8 items-center'>
+            <div>
               <button className='btn btn-lg'>
                 Contact me
               </button>
-              <a href="#" className='text-gradient btn-link'>
-                My Portfolio
-              </a>
+              <a href="#" className=''></a>
             </div>
           </div>
         </div>
