@@ -2,12 +2,12 @@ import React from 'react';
 import imgAb from '../assets/about.png';
 import CountUp from 'react-countup';
 
-import { useInView } from 'react-intersection-observer';
+import { InView, useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 const About = () => {
 
-  const [ref, inView] = useInView({
+  const [ref, InView] = useInView({
     threshold: 0.5,
   })
   return (
@@ -35,29 +35,7 @@ const About = () => {
               <div>
                 <div className='text-[40px] font-tertiary text-gradient mb-2 '>
                   {
-                    inView ?
-                    <CountUp start={0} end={14} duration={7} /> : null
-                  }
-                </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  Years of <br /> Experience 
-                </div>
-              </div>
-              <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2 '>
-                  {
-                    inView ?
-                    <CountUp start={0} end={14} duration={7} /> : null
-                  }
-                </div>
-                <div className='font-primary text-sm tracking-[2px]'>
-                  Years of <br /> Experience 
-                </div>
-              </div>
-              <div>
-                <div className='text-[40px] font-tertiary text-gradient mb-2 '>
-                  {
-                    inView ?
+                    Inview ?
                     <CountUp start={0} end={14} duration={7} /> : null
                   }
                 </div>
