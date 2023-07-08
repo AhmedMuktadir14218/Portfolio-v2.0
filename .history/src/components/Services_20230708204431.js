@@ -41,9 +41,9 @@ const Services = () => {
             <button className='btn btn-sm '>See My Work</button>
           </div>
 
-          {/* service */}
-          <div>
           service
+          <div>
+
           </div>
         </div>
       </div>

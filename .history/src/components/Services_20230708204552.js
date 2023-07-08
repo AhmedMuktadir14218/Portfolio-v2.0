@@ -43,7 +43,7 @@ const Services = () => {
 
           {/* service */}
           <div>
-          service
+
           </div>
         </div>
       </div>
