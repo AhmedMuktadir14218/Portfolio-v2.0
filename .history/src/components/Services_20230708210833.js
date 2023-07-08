@@ -47,7 +47,7 @@ const Services = () => {
             {
               services.map((service,index)=>{
                 return <div>
-                  <div>text</div>
+                  <div></div>
                 </div>
               })
             }
