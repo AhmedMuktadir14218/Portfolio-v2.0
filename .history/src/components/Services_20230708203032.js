@@ -1,5 +1,5 @@
 import React from 'react';
-import {BsArrowUpRight} from 'react-icons/bs';
+import {BsArrowUpRight} from 'react-icon/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 const services =[
@@ -34,10 +34,7 @@ const Services = () => {
         <div>
           {/* text */}
           <div>
-            <h2 className='h2 text-accent mb-6'>What I Do.</h2>
-            <h3 className='h3 max-w-[455px] mb-16 '>
-              I am a freelance Fullstack Developer with over 2 years of experience.
-            </h3>
+            <h2 className=''>What I Do.</h2>
           </div>
 
           {/* service */}
