@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import {BsArrowUpRight} from 'react-icons/bs';
 import { motion } from 'framer-motion';
@@ -48,17 +47,12 @@ const Services = () => {
             {
               services.map((service,index)=>{
                 const {name,description,link}=service;
-                return <div className='border-b border-white/20 h-[144px] mb-[38px] flex' key={index}>
+                return <div className='border-b border-white/20 h-[144px] mb-[38px] fl' key={index}>
                   <div className='max-w-[476px]'>
                     <h4  className='text-[20px] tracking-wider font-primary font-semibold mb-6 '>{name}</h4>
                     <p className='font-secondary leading-tight'>{description}</p>
                   </div>
-                  <div className='flex flex-col flex-1 items-end'>
-                    <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
-                      <BsArrowUpRight></BsArrowUpRight>
-                    </a>
-                    <a href="#" className='text-gradient text-sm'>{link}</a>
-                  </div>
+                  <div>{link}</div>
                 </div>
               })
             }

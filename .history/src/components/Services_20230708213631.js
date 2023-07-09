@@ -53,11 +53,11 @@ const Services = () => {
                     <h4  className='text-[20px] tracking-wider font-primary font-semibold mb-6 '>{name}</h4>
                     <p className='font-secondary leading-tight'>{description}</p>
                   </div>
-                  <div className='flex flex-col flex-1 items-end'>
-                    <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>
+                  <div className='flex flex-1 '>
+                    <a href="#">
                       <BsArrowUpRight></BsArrowUpRight>
                     </a>
-                    <a href="#" className='text-gradient text-sm'>{link}</a>
+                    <a href="#">{link}</a>
                   </div>
                 </div>
               })
