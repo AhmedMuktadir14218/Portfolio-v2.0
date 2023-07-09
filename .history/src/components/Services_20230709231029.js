@@ -35,7 +35,7 @@ const Services = () => {
         <div className='flex flex-col lg:flex-row'>
           {/* text */}
           <motion.div
-          variants={fadeIn('right',0.3)}
+          variants={fadeIn('ri',0.3)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false,amount:0.7}}
@@ -50,7 +50,7 @@ const Services = () => {
 
           {/* service */}
           <motion.div
-          variants={fadeIn('left',0.3)}
+          variants={fadeIn('right',0.3)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false,amount:0.7}}
