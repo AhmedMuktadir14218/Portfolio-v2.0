@@ -46,7 +46,7 @@ const Services = () => {
               I am a freelance Fullstack Developer with over 2 years of experience.
             </h3>
             <button className='btn btn-sm '>See My Work</button>
-          </motion.div>
+          </div>
 
           {/* service */}
           <motion.div
