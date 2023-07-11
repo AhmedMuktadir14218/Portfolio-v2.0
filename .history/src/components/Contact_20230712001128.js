@@ -11,7 +11,7 @@ const Contact = () => {
         {/* text */}
         <div className='flex-1'>
           <div>
-            <h4 className='text-xl '>get in Touch</h4>
+            <h4 className='tex'>get in Touch</h4>
             <h2>
               Let's work <br /> together!
             </h2>

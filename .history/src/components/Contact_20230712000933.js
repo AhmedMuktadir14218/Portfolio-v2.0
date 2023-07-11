@@ -9,16 +9,9 @@ const Contact = () => {
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row'>
         {/* text */}
-        <div className='flex-1'>
-          <div>
-            <h4 className='text-xl '>get in Touch</h4>
-            <h2>
-              Let's work <br /> together!
-            </h2>
-          </div>
-        </div>
+        <div>text</div>
         {/* form */}
-        <form className='flex-1' ></form>
+        <form ></form>
       </div>
     </div>
   </section>
