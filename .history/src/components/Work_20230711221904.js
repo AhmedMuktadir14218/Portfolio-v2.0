@@ -17,16 +17,16 @@ const Work = () => {
             <div>
               <h2 className='h2 leading-tight text-accent'>My Latest <br /> Work</h2>
 
-              <p className='max-w-sm mb-16'>
+              <p className='max-wsm'>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus eaque quo odio, dolores nisi tempore maiores quam enim veniam cupiditate.
               </p>
-              <a href="https://github.com/AhmedMuktadir14218?tab=repositories"><button className='btn btn-sm'>View All project</button></a>
+
             </div>
 
             {/* image */}
             <div>image</div>
           </div>
-
+          
           <div>2</div>
         </div>
       </div>
