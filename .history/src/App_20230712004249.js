@@ -10,14 +10,15 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className='bg-site h-[5000px] bg-no-repeat bg-cover overflow-hidden'>
+    <div className='bg-site h-[4000px] bg-no-repeat bg-cover overflow-hidden'>
+      
       <Header />
       <Banner />
       <Nav />
       <About />
       <Services />
       <Work />
-      <Contact />
+    
       <div className=''></div>
     </div>
   );

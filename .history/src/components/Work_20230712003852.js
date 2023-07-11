@@ -17,7 +17,7 @@ const Work = () => {
             variants={fadeIn('right', 0.1)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.9 }}
 
             className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0
           '>
@@ -46,10 +46,10 @@ const Work = () => {
 
           <motion.div
 
-            variants={fadeIn('left', 0.2)}
+            variants={fadeIn('left', 0.1)}
             initial='hidden'
             whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.9 }}
 
             className='flex-1 flex flex-col gap-y-10 '>
             {/* image */}

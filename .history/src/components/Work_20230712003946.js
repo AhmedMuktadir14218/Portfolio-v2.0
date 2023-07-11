@@ -46,7 +46,7 @@ const Work = () => {
 
           <motion.div
 
-            variants={fadeIn('left', 0.2)}
+            variants={fadeIn('left', 0.5)}
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: false, amount: 0.7 }}
