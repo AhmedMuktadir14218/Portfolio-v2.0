@@ -30,7 +30,7 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
               
-              <img className='group-hover:scale-125' src={img1} alt="" />
+              <img className='' src={img1} alt="" />
               <div>BookWorms</div>
               <div><span>Online Book Store</span></div>
             </div>
