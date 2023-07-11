@@ -19,12 +19,8 @@ const Contact = () => {
           </div>
         </div>
         {/* form */}
-        <form className='flex-1 border rounded-2xl flex flex-col ' >
+        <form className='flex-1' >
           <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='Your Name'/>
-          <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='Your Email'/>
-
-          <textarea className='bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all resize-none mb-12' placeholder='Your message'></textarea>
-          <button className='btn btn-lg'>Send message</button>
         </form>
       </div>
     </div>

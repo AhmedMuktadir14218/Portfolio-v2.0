@@ -19,7 +19,7 @@ const Contact = () => {
           </div>
         </div>
         {/* form */}
-        <form className='flex-1 border rounded-2xl flex flex-col ' >
+        <form className='flex-1 border rounded-' >
           <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='Your Name'/>
           <input className='bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all' type="text" name="" id="" placeholder='Your Email'/>
 
