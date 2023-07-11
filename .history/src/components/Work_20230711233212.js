@@ -12,14 +12,7 @@ const Work = () => {
       <div className="container mx-auto">
 
         <div className='flex flex-col lg:flex-row gap-x-10 '>
-          <motion.div 
-          
-          variants={fadeIn('right',0.2)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once: false,amount:0.7}}
-
-          className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0
+          <div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0
           '>
             {/* text */}
             <div>
@@ -41,15 +34,10 @@ const Work = () => {
               <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500'><span className='text-gradient'>BookWorms</span></div>
               <div  className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500'><span className='text-3xl text-white'>Online Book Store</span></div>
             </div>
-          </motion.div>
+          </div>
 
           <motion.div 
           
-          variants={fadeIn('left',0.2)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once: false,amount:0.7}}
-
           className='flex-1 flex flex-col gap-y-10 '>
                {/* image */}
                <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
@@ -58,7 +46,7 @@ const Work = () => {
               {/* img */}
               
               <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500'><span className='text-white '>BookWorms</span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500'><span className='text-gradient '>BookWorms</span></div>
               <div  className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500'><span className='text-3xl text-white'>Online Book Store</span></div>
             </div>
 

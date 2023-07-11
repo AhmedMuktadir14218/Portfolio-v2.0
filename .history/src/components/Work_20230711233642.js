@@ -12,14 +12,7 @@ const Work = () => {
       <div className="container mx-auto">
 
         <div className='flex flex-col lg:flex-row gap-x-10 '>
-          <motion.div 
-          
-          variants={fadeIn('right',0.2)}
-          initial='hidden'
-          whileInView={'show'}
-          viewport={{once: false,amount:0.7}}
-
-          className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0
+          <motion.div className='flex-1 flex flex-col gap-y-12 mb-10 lg:mb-0
           '>
             {/* text */}
             <div>
