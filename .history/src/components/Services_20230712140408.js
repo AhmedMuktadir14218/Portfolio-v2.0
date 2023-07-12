@@ -50,7 +50,7 @@ const Services = () => {
 
           {/* service */}
           <motion.div
-          variants={fadeIn('left',0.1)}
+          variants={fadeIn('left',0.4)}
           initial='hidden'
           whileInView={'show'}
           viewport={{once: false,amount:0.7}}
