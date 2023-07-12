@@ -10,7 +10,7 @@ const Contact = () => {
     <div className="container mx-auto">
       <div className='flex flex-col lg:flex-row'>
         {/* text */}
-        <div className='flex-1 flex justify-start item-center'>
+        <div className='flex-1 justify-center item-center'>
           <div>
             <h4 className='text-2xl uppercase text-accent font-medium mb-2 tracking-wide '>get in Touch</h4>
 
