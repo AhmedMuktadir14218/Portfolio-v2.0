@@ -4,8 +4,8 @@ import React from 'react';
 import CountUp from 'react-countup';
 
 import { useInView } from 'react-intersection-observer';
-// import { motion } from 'framer-motion';
-// import { fadeIn } from '../variants';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../variants';
 const About = () => {
 
   const [ref, inView] = useInView({
@@ -29,9 +29,7 @@ const About = () => {
             </h2>
             {/* <h3 className='h3 mb-4'>Lorem ipsum dolor sit amet consectetur.</h3> */}
             <p className='mb-6'>
-            I am 22 year's old. Currently, I'm studying in computer science and engineering from Daffodil International University.
               I am  an experienced Frontend Web Developer with mastery in React Js, HTML, CSS, JavaScript, and Bootstrap. I take pride in transforming designs into pixel-perfect frontend websites. My code is well-structured, cross-browser compatible, valid, adaptive, and easy to maintain.
-
               
             </p>
 

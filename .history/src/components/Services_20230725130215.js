@@ -22,7 +22,7 @@ const services =[
   }  ,
   {
     name: "Web Application Maintenance",
-    description : 'I will web application maintenance, enhancements, and bug fixes',
+    description : 'LI will web application maintenance, enhancements, and bug fixes',
     link:'learn more',
   }  
 

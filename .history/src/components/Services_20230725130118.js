@@ -22,7 +22,7 @@ const services =[
   }  ,
   {
     name: "Web Application Maintenance",
-    description : 'I will web application maintenance, enhancements, and bug fixes',
+    description : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis excepturi alias sunt vel maxime dolor nemo rem quis esse temporibus!',
     link:'learn more',
   }  
 
@@ -62,7 +62,7 @@ const Services = () => {
                 return <div className='border-b border-white/20 h-[144px] mb-[38px] flex' key={index}>
                   <div className='max-w-[476px]'>
                     <h4  className='text-[20px] tracking-wider font-primary font-semibold mb-6 '>{name}</h4>
-                    <p className='font-secondary leading-tight'>{description}</p>
+                    {/* <p className='font-secondary leading-tight'>{description}</p> */}
                   </div>
                   <div className='flex flex-col flex-1 items-end'>
                     <a href="#" className='btn w-9 h-9 mb-[42px] flex justify-center items-center'>

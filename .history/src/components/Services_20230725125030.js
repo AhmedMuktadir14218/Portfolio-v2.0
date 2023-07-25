@@ -7,22 +7,22 @@ const services =[
 
   {
     name: "Website Development",
-    description : 'I will develop website blog webapp in node js react js mern stack',
+    description : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis excepturi alias sunt vel maxime dolor nemo rem quis esse temporibus!',
     link:'learn more',
   }  ,
   {
     name: "Portfolio",
-    description : 'We will create a personalized site for your brand. You can be a startup looking for a new site or a company that needs to take the existing site to another level. We are here to make it happen!',
+    description : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis excepturi alias sunt vel maxime dolor nemo rem quis esse temporibus!',
     link:'learn more',
   }  ,
   {
     name: "Web Designing",
-    description : 'I value simple content structure, clean design patterns, and thoughtful interactions.',
+    description : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis excepturi alias sunt vel maxime dolor nemo rem quis esse temporibus!',
     link:'learn more',
   }  ,
   {
     name: "Web Application Maintenance",
-    description : 'I will web application maintenance, enhancements, and bug fixes',
+    description : 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis excepturi alias sunt vel maxime dolor nemo rem quis esse temporibus!',
     link:'learn more',
   }  
 
