@@ -49,7 +49,7 @@ const Banner = () => {
            whileInView={'show'}
            viewport={{once: false,amount:0.7}}
           className='mb-8 max-w-lg mx-auto lg:mx-0'>
-           Exceed your web development expectations with over 3 years of experience. Proficient in HTML, CSS, JavaScript, ReactJS, Node js, Express js, and MongoDB. Let's bring your ideas to life! Client satisfaction guaranteed.</motion.p>
+           </motion.p>
           <motion.div
            variants={fadeIn('up',0.6)}
            initial='hidden'
