@@ -5,7 +5,6 @@ import { FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
-import { Link } from 'react-scroll';
 
 const Banner = () => {
   return <section
@@ -57,13 +56,7 @@ const Banner = () => {
            whileInView={'show'}
            viewport={{once: false,amount:0.7}}
           className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-            <button className='btn btn-lg'> <Link to='contact' 
-    activeClass='active'
-    smooth={true}
-    spy={true}>
-      Contact Me
-      
-    </Link></button>
+            <button className='btn btn-lg'>a</button>
             <a href="#" className='text-gradient btn-link'>
               My Portfolio
             </a>

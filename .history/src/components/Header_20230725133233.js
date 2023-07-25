@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Logo from '../assets/logo3.png'
 const Header = () => {
@@ -7,6 +6,7 @@ const Header = () => {
       
       <div className="container mx-auto">
           <div className='flex justify-between items-center '>
+            // eslint-disable-next-line jsx-a11y/anchor-is-valid
             <a href="#">
               <img src={Logo} alt="logo" />
             </a>

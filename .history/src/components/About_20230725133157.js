@@ -4,7 +4,6 @@ import React from 'react';
 import CountUp from 'react-countup';
 
 import { useInView } from 'react-intersection-observer';
-import { Link } from 'react-scroll';
 // import { motion } from 'framer-motion';
 // import { fadeIn } from '../variants';
 const About = () => {
@@ -73,7 +72,7 @@ const About = () => {
               </div>
             </div>
             <div className='flex gap-x-8 items-center'>
-            <button className='btn btn-lg'> <Link to='contact' 
+            <button className='btn btn-lg'> <Lin to='contact' 
     activeClass='active'
     smooth={true}
     spy={true}>
