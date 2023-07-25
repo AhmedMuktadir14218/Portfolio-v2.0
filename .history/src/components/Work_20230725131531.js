@@ -36,10 +36,10 @@ const Work = () => {
               <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
               {/* img */}
 
-              <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt="" />
+              <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt="" />
 
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'><a href="https://gentleman-s-cut.web.app/">Gentlemans Cut</a></span></div>
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Gents Parlour Website</span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient'>Gentlemans Cut</span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Online Book Store</span></div>
             </div>
           </motion.div>
 
@@ -58,8 +58,8 @@ const Work = () => {
               {/* img */}
 
               <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt="" />
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient '><a href="https://bookworms-51eca.web.app/">BookWorms</a></span></div>
-              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Online Book Store</span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient '>Gentlemans Cut</span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Gents Parlour Website</span></div>
             </div>
 
 
@@ -71,7 +71,7 @@ const Work = () => {
               {/* img */}
 
               <img className='group-hover:scale-125 transition-all duration-500' src={img3} alt="" />
-              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient '><a href="https://doctor-chamber-3421f.web.app/">Doctors Chamber</a></span></div>
+              <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'><span className='text-gradient '>Doctors Chamber</span></div>
               <div className='absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50'><span className='text-3xl text-white'>Appointment Website</span></div>
             </div>
           </motion.div>
