@@ -12,7 +12,7 @@ const Header = () => {
             <a href="#">
               <img src={Logo} alt="logo" />
             </a>
-            <button className='btn btn-lg'> <Link 
+            <button className='btn btn-lg'> <Link to={resume} download="Resume"
     activeClass='active'
     smooth={true}
     spy={true}>
@@ -20,7 +20,7 @@ const Header = () => {
       
     </Link></button>
     <a href={resume} download="Resume">
-      <button>cv/sdkb</button>
+      <button>cv</button>
     </a>
             {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>

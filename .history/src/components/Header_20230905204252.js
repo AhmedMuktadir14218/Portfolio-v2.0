@@ -12,16 +12,14 @@ const Header = () => {
             <a href="#">
               <img src={Logo} alt="logo" />
             </a>
-            <button className='btn btn-lg'> <Link 
+            <button className='btn btn-lg'> <Link to={resume} download="Resume"
     activeClass='active'
     smooth={true}
     spy={true}>
       Work with me
       
     </Link></button>
-    <a href={resume} download="Resume">
-      <button>cv/sdkb</button>
-    </a>
+    <a href={resume} download=re></a>
             {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>
       </div>

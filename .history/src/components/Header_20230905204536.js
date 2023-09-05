@@ -12,7 +12,9 @@ const Header = () => {
             <a href="#">
               <img src={Logo} alt="logo" />
             </a>
-            <button className='btn btn-lg'> <Link 
+            <button className='btn btn-lg'> <Link download="Example-PDF-document"
+        target="_blank"
+        rel="noreferrer"
     activeClass='active'
     smooth={true}
     spy={true}>
