@@ -2,7 +2,7 @@
 import React from 'react';
 import Logo from '../assets/logo3.png'
 import { Link } from 'react-scroll';
-import resume from "../assets/MUKTADIR UDOY CV Resume_4.pdf";
+import resume from "../../public/MUKTADIR UDOY CV Resume_4.pdf";
 const Header = () => {
   return (
     <div className='py-8'>

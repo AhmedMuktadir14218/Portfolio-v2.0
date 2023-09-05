@@ -13,22 +13,16 @@ const Header = () => {
               <img src={Logo} alt="logo" />
             </a>
             
-      {/* <a href={resume} download="Resume"> */}
-            {/* <button className='btn btn-lg'> <Link 
+      <a href={resume} download="Resume">
+            <button className='btn btn-lg'> <Link 
     activeClass='active'
     smooth={true}
     spy={true}>
-      
-      
+      <Li
+      Work with me
   
-    </Link></button>  */}
-    <a href={resume}
-        download="Example-PDF-document"
-        target="_blank"
-        rel="noreferrer">
-          <button className='btn btn-lg'>Work with me</button>
-        </a>
-    {/* </a> */}
+    </Link></button> 
+    </a>
             {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>
       </div>

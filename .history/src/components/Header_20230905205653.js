@@ -2,7 +2,7 @@
 import React from 'react';
 import Logo from '../assets/logo3.png'
 import { Link } from 'react-scroll';
-import resume from "../assets/MUKTADIR UDOY CV Resume_4.pdf";
+import resume from "../../public/MUKTADIR UDOY CV Resume_4.pdf";
 const Header = () => {
   return (
     <div className='py-8'>
@@ -14,20 +14,17 @@ const Header = () => {
             </a>
             
       {/* <a href={resume} download="Resume"> */}
-            {/* <button className='btn btn-lg'> <Link 
+            <button className='btn btn-lg'> <Link 
     activeClass='active'
     smooth={true}
     spy={true}>
-      
-      
-  
-    </Link></button>  */}
-    <a href={resume}
+      <a href={require('./example.pdf')}
         download="Example-PDF-document"
         target="_blank"
-        rel="noreferrer">
-          <button className='btn btn-lg'>Work with me</button>
-        </a>
+        rel="noreferrer"></a>
+      Work with me
+  
+    </Link></button> 
     {/* </a> */}
             {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>
