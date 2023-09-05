@@ -11,7 +11,7 @@ const Header = () => {
             <a href="#">
               <img src={Logo} alt="logo" />
             </a>
-            <button className='btn btn-lg'> <Link to='contact' 
+            <button className='btn btn-lg'> <Link to='re' 
     activeClass='active'
     smooth={true}
     spy={true}>

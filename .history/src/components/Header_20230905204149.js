@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import Logo from '../assets/logo3.png'
+import { Link } from 'react-scroll';
+import resume from "../assets/MUKTADIR UDOY CV Resume_4.pdf";
 const Header = () => {
   return (
     <div className='py-8'>
@@ -10,14 +12,14 @@ const Header = () => {
             <a href="#">
               <img src={Logo} alt="logo" />
             </a>
-            <button className='btn btn-lg'> <Link to='contact' 
+            <button className='btn btn-lg'> <Link to={resume} download="Resum"
     activeClass='active'
     smooth={true}
     spy={true}>
-      Contact Me
+      Work with me
       
     </Link></button>
-            <button className='btn btn-sm'>Work with me</button>
+            {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>
       </div>
     </div>

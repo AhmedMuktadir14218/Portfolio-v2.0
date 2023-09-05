@@ -2,7 +2,7 @@
 import React from 'react';
 import Logo from '../assets/logo3.png'
 import { Link } from 'react-scroll';
-import resume from "../assets/MUKTADIR UDOY CV Resume_4.pdf";
+import resume 
 const Header = () => {
   return (
     <div className='py-8'>
@@ -12,7 +12,7 @@ const Header = () => {
             <a href="#">
               <img src={Logo} alt="logo" />
             </a>
-            <button className='btn btn-lg'> <Link to={resume} download="Resume"
+            <button className='btn btn-lg'> <Link to='re' 
     activeClass='active'
     smooth={true}
     spy={true}>
