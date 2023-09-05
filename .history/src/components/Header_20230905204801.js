@@ -18,7 +18,7 @@ const Header = () => {
     spy={true}>
       
       <a href={resume} download="Resume">
-      Work with me
+      
     </a>
     </Link></button>
    

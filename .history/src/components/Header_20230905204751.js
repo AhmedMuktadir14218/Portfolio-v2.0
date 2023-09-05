@@ -16,9 +16,9 @@ const Header = () => {
     activeClass='active'
     smooth={true}
     spy={true}>
-      
-      <a href={resume} download="Resume">
       Work with me
+      <a href={resume} download="Resume">
+      <button>cv/sdkb</button>
     </a>
     </Link></button>
    

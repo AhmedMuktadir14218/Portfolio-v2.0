@@ -16,10 +16,8 @@ const Header = () => {
     activeClass='active'
     smooth={true}
     spy={true}>
-      
-      <a href={resume} download="Resume">
       Work with me
-    </a>
+      
     </Link></button>
    
             {/* <button className='btn btn-sm'>Work with me</button> */}
