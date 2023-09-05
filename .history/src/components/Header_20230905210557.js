@@ -28,6 +28,8 @@ const Header = () => {
         rel="noreferrer">
           <button className='btn btn-lg'>My CV/Resume</button>
         </a>
+    {/* </a> */}
+            {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>
       </div>
     </div>

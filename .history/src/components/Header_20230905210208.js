@@ -26,8 +26,12 @@ const Header = () => {
         download="Example-PDF-document"
         target="_blank"
         rel="noreferrer">
-          <button className='btn btn-lg'>My CV/Resume</button>
+          <button className='btn btn-lg'><Link activeClass='active'
+    smooth={true}
+    spy={true}></Link>Work with me</button>
         </a>
+    {/* </a> */}
+            {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>
       </div>
     </div>

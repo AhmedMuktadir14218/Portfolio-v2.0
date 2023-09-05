@@ -26,8 +26,10 @@ const Header = () => {
         download="Example-PDF-document"
         target="_blank"
         rel="noreferrer">
-          <button className='btn btn-lg'>My CV/Resume</button>
+          <button className='btn btn-lg'><Link></Link>Work with me</button>
         </a>
+    {/* </a> */}
+            {/* <button className='btn btn-sm'>Work with me</button> */}
           </div>
       </div>
     </div>
